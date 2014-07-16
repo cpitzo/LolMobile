@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Users\Cpitzo\AndroidStudioProjects\LoLmobile\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-e311e493b238b75da4095bd5ee7b69d76d73dc42.jar"
+        jar="C:\Program Files (x86)\Android\android-studio\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+    <item
+        dex="C:\Users\Cpitzo\AndroidStudioProjects\LoLmobile\app\build\intermediates\pre-dexed\debug\classes-8a58fe1ac84f06c5037c2b00861958a262d9ac4a.jar"
+        jar="C:\Users\Cpitzo\AndroidStudioProjects\LoLmobile\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
+    <item
+        dex="C:\Users\Cpitzo\AndroidStudioProjects\LoLmobile\app\build\intermediates\pre-dexed\debug\orianna-v.1.1.1-4bb4f8295228a1ca26c05ed49782495d896a8b64.jar"
+        jar="C:\Users\Cpitzo\AndroidStudioProjects\LoLmobile\app\libs\orianna-v.1.1.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="848831e3a34a45d1fbda31d320112b21ce2457a2"/>
+    <item
+        dex="C:\Users\Cpitzo\AndroidStudioProjects\LoLmobile\app\build\intermediates\pre-dexed\debug\gson-2.2.4-9f241176f787ee848b4852f2d6f8ffb5555cc66c.jar"
+        jar="C:\Users\Cpitzo\AndroidStudioProjects\LoLmobile\app\libs\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8"/>
+
+</pre-dex-items>

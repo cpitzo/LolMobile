@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="Custom" parent="android:Theme.Holo">
+
+    <item name="android:editTextBackground">@drawable/custom_edit_text_holo_dark</item>
+
+    <item name="android:textColorHighlight">#9937474d</item>
+    <item name="android:textSelectHandleLeft">@drawable/custom_text_select_handle_left</item>
+    <item name="android:textSelectHandleRight">@drawable/custom_text_select_handle_right</item>
+    <item name="android:textSelectHandle">@drawable/custom_text_select_handle_middle</item>
+
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewCustom</item>
+
+    <item name="android:listChoiceIndicatorMultiple">@drawable/custom_btn_check_holo_dark</item>
+
+    <item name="android:listChoiceIndicatorSingle">@drawable/custom_btn_radio_holo_dark</item>
+
+    <item name="android:buttonStyle">@style/ButtonCustom</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonCustom</item>
+
+    <item name="android:dropDownSpinnerStyle">@style/SpinnerCustom</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarCustom</item>
+
+    <item name="android:buttonStyleToggle">@style/ToggleCustom</item>
+
+    <item name="android:listChoiceBackgroundIndicator">@drawable/custom_list_selector_holo_dark</item>
+
+    <item name="android:activatedBackgroundIndicator">@drawable/custom_activated_background_holo_dark</item>
+
+    <item name="android:fastScrollThumbDrawable">@drawable/custom_fastscroll_thumb_holo</item>
+
+  </style>
+
+</resources>

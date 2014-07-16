@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/abc_ab_bottom_solid_dark_holo">
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/baron"
+        android:src="@drawable/baron_nashor"
+        android:layout_above="@+id/myblue"
+        android:layout_alignRight="@+id/mybluetext"
+        android:layout_alignEnd="@+id/mybluetext"
+        android:layout_marginBottom="39dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dragon"
+        android:src="@drawable/dragon_buff"
+        android:layout_alignTop="@+id/baron"
+        android:layout_alignLeft="@+id/ebluetext"
+        android:layout_alignStart="@+id/ebluetext" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/myblue"
+        android:src="@drawable/blue_buff"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/myred"
+        android:layout_below="@+id/myblue"
+        android:layout_alignLeft="@+id/myblue"
+        android:layout_alignStart="@+id/myblue"
+        android:src="@drawable/red_buff" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/eblue"
+        android:src="@drawable/blue_buff"
+        android:layout_above="@+id/ered"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ered"
+        android:src="@drawable/red_buff"
+        android:layout_alignTop="@+id/myred"
+        android:layout_alignLeft="@+id/eblue"
+        android:layout_alignStart="@+id/eblue" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="   My Buffs"
+        android:id="@+id/sumtext"
+        android:layout_below="@+id/myred"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/myblue"
+        android:layout_alignEnd="@+id/myblue" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Enemy Buffs"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/ered"
+        android:layout_toRightOf="@+id/eredtext" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/dtext"
+        android:layout_above="@+id/dragon"
+        android:layout_alignRight="@+id/dragon"
+        android:layout_alignEnd="@+id/dragon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/btext"
+        android:layout_alignTop="@+id/dtext"
+        android:layout_alignLeft="@+id/baron"
+        android:layout_alignStart="@+id/baron" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/ebluetext"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/eblue" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/mybluetext"
+        android:layout_alignTop="@+id/ebluetext"
+        android:layout_toRightOf="@+id/myblue" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/myredtext"
+        android:layout_alignTop="@+id/myred"
+        android:layout_toRightOf="@+id/myred"
+        android:layout_marginTop="38dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/eredtext"
+        android:layout_alignTop="@+id/myredtext"
+        android:layout_toLeftOf="@+id/ered" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Jungle Timers: tap a buff to start timer"
+        android:id="@+id/sumName"
+        android:layout_below="@+id/sumtext"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp" />
+
+</RelativeLayout>
