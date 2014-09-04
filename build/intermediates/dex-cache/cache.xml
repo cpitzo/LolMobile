@@ -2,28 +2,34 @@
 <pre-dex-items>
 
     <item
-        dex="C:\Users\Cpitzo\AndroidStudioProjects\LoLmobile\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-e311e493b238b75da4095bd5ee7b69d76d73dc42.jar"
-        jar="C:\Program Files (x86)\Android\android-studio\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        dex="C:\Users\Cpitzo\AndroidStudioProjects\LoLmobile\app\build\intermediates\pre-dexed\debug\classes-db6f4d397a8e2c667a9e9b7d5157937a6a745cb7.jar"
+        jar="C:\Users\Cpitzo\AndroidStudioProjects\LoLmobile\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\classes.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
     <item
-        dex="C:\Users\Cpitzo\AndroidStudioProjects\LoLmobile\app\build\intermediates\pre-dexed\debug\classes-8a58fe1ac84f06c5037c2b00861958a262d9ac4a.jar"
-        jar="C:\Users\Cpitzo\AndroidStudioProjects\LoLmobile\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\classes.jar"
+        dex="C:\Users\Cpitzo\AndroidStudioProjects\LoLmobile\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-a4e99bb09db83315001218d362c2ad030bbe2f2c.jar"
+        jar="C:\Program Files (x86)\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
     <item
-        dex="C:\Users\Cpitzo\AndroidStudioProjects\LoLmobile\app\build\intermediates\pre-dexed\debug\orianna-v.1.1.1-4bb4f8295228a1ca26c05ed49782495d896a8b64.jar"
-        jar="C:\Users\Cpitzo\AndroidStudioProjects\LoLmobile\app\libs\orianna-v.1.1.1.jar"
+        dex="C:\Users\Cpitzo\AndroidStudioProjects\LoLmobile\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-786ecf1fea77f58c96fbcf5b4f5aeec48e464768.jar"
+        jar="C:\Users\Cpitzo\AndroidStudioProjects\LoLmobile\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\libs\internal_impl-20.0.0.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="848831e3a34a45d1fbda31d320112b21ce2457a2"/>
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
     <item
-        dex="C:\Users\Cpitzo\AndroidStudioProjects\LoLmobile\app\build\intermediates\pre-dexed\debug\gson-2.2.4-9f241176f787ee848b4852f2d6f8ffb5555cc66c.jar"
-        jar="C:\Users\Cpitzo\AndroidStudioProjects\LoLmobile\app\libs\gson-2.2.4.jar"
+        dex="C:\Users\Cpitzo\AndroidStudioProjects\LoLmobile\app\build\intermediates\pre-dexed\debug\classes-e1574332053ae20297fb83d18d063a77fee17c47.jar"
+        jar="C:\Users\Cpitzo\AndroidStudioProjects\LoLmobile\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\20.0.0\classes.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8"/>
+        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef"/>
+    <item
+        dex="C:\Users\Cpitzo\AndroidStudioProjects\LoLmobile\app\build\intermediates\pre-dexed\debug\gson-2.2.4-f0459bbe8408a8db21d0ea25a73e82089a425641.jar"
+        jar="C:\Users\Cpitzo\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.2.4\a60a5e993c98c864010053cb901b7eab25306568\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568"/>
 
 </pre-dex-items>

@@ -76,10 +76,9 @@ public class SummonerLookUp extends Fragment {
 
 
             actionBar.addTab(tab1);
-            actionBar.selectTab(tab1);
             actionBar.addTab(tab2);
             actionBar.addTab(tab3);
-
+            actionBar.selectTab(tab1);
 
         }
         /*try{

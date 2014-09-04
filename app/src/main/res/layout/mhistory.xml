@@ -1,7 +1,129 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-</LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="game1"
+        android:id="@+id/tvGame1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/champ1"
+        android:layout_below="@+id/tvGame1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="237dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/tvKDA1"
+        android:layout_below="@+id/tvGame1"
+        android:layout_alignStart="@+id/champ1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/tvGoldCS"
+        android:layout_below="@+id/tvGame1"
+        android:layout_alignStart="@+id/champ1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/tvDuration"
+        android:layout_below="@+id/tvKDA1"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="41dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/tvWin"
+        android:layout_above="@+id/tvDuration"
+        android:layout_toEndOf="@+id/tvGame1" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sumspell11"
+        android:layout_alignBottom="@+id/tvDuration"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sumspell12"
+        android:layout_alignTop="@+id/tvDuration"
+        android:layout_toEndOf="@+id/imageView3" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/item1"
+        android:layout_alignTop="@+id/tvDuration"
+        android:layout_toEndOf="@+id/tvWin" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/item2"
+        android:layout_alignTop="@+id/tvDuration"
+        android:layout_toEndOf="@+id/item1" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/item3"
+        android:layout_alignTop="@+id/tvDuration"
+        android:layout_toEndOf="@+id/item2" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/item4"
+        android:layout_alignTop="@+id/tvDuration"
+        android:layout_toEndOf="@+id/item3" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/item5"
+        android:layout_alignTop="@+id/tvDuration"
+        android:layout_toEndOf="@+id/item4" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/item6"
+        android:layout_alignTop="@+id/tvDuration"
+        android:layout_toEndOf="@+id/item5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="level"
+        android:id="@+id/tvLevel"
+        android:layout_below="@+id/tvGame1"
+        android:layout_toEndOf="@+id/sumspell12" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="day"
+        android:id="@+id/tvDay"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/tvKDA1" />
+</RelativeLayout>

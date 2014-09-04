@@ -3,6 +3,7 @@ package com.lolmobile.app;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -19,25 +20,28 @@ public class MatchHistory extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.mhistory, container, false);
 
-       // new RetrieveStuffTask().execute(lol);
 
+        JRiot lol = new JRiot("bf37de44-361f-41fb-ad70-0d9f12b443bb",getArguments().getString("region"));
+        new RetrieveStuffTask().execute(lol);
         return rootView;
     }
-    /*
-    private class RetrieveStuffTask extends AsyncTask<RiotAPI,Void,Integer> {
+
+    private class RetrieveStuffTask extends AsyncTask<JRiot,Void,Integer> {
         private Exception exception;
 
         @Override
-        protected Integer doInBackground(RiotAPI... params) {
+        protected Integer doInBackground(JRiot... params) {
             try {
                 Summoner summoner = params[0].getSummoner(getArguments().getString("SummonerName"));
-                List<Game> recGames =  params[0].getRecentGames(summoner.ID);
-                for(Game g: recGames){
+                RecentGames recGames =  params[0].getRecentGames(summoner.getId());
+               ArrayList<Game> games = recGames.getGames();
+                for(Game g: games){
 
                 }
-            } catch (APIException e) {
+            } catch (JRiotException e) {
+                Log.v("api error", e.toString());
             }
             return null;
         }
-    }*/
+    }
 }
